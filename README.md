@@ -1,25 +1,36 @@
 # CSS Fundamentals
+## Part One: The Key Principles of CSS
 
 ## Objectives
 
-* Discuss what CSS does and why it's important
-* Differentiate between inline, internal, and external stylesheets
-* Understand how to use class, id, and element selectors, and selector order of importance
-* Demonstrate the use of the box model, floats, clear, positioning, flex box, CSS grid in page layout
-* Introduce CSS Frameworks like Bootstrap and Semantic UI
+* (p1) Discuss what CSS does and why it's important
+* (p1) Differentiate between inline, internal, and external stylesheets
+* (p1) Demonstrate the anatomy of a declaration block
+* (p1) Understand how to use class, id, and element selectors, and selector order of importance
+* (p1) Demonstrate the use of the box model, floats, clear and positioning
+* (p2) Demonstrate the use of flex box, CSS grid in page layout
+* (p2) Introduce CSS Frameworks like Bootstrap and Semantic UI
 
 
 ## CSS Basics
 
 What does CSS mean?
-Cascading stylesheets
-
+- Cascading stylesheets
 
 Why do we use it?
-Make it pretty.
+- Make it pretty.
 
 
-## Stylesheets and Selectors
+## The Good, the Bad and the Ugly
+
+* CSS Zen Garden: csszengarden.com
+
+* Eteamz: eteamz.com/soccer/pills/jpill.htm
+
+* My Favorite: lingscars.com
+
+
+## Three Types of CSS
 
 How do we add CSS to our HTML page?
 * Inline
@@ -47,7 +58,7 @@ How do we add CSS to our HTML page?
   <link rel="stylesheet" href="./hasselhoff.css">
   ```
 
-## Anatomy of the declaration block
+## Anatomy of the Declaration Block
 
 selectors {
   property: value or values;
@@ -55,7 +66,8 @@ selectors {
 }
 
 
-## Types of CSS selectors
+## Types of CSS Selectors
+
 * HTML tags/elements - Least specific
 * Classes
 * Ids - Most specific
@@ -139,4 +151,3 @@ You can style your website very quickly by using a framework, but there are some
 [CSS Zen Garden](http://www.csszengarden.com/) - Great examples of some rock solid CSS experiences
 [Flexbox Froggy](https://flexboxfroggy.com/) - THE BEST way to learn flex
 [CSS Grid Garden](http://cssgridgarden.com/) - THE BEST way to learn grid
-# CSS-Lecture
