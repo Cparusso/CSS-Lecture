@@ -53,8 +53,6 @@ lingscars.com
 <tag style="property:value or values;”>
 ```
 
-THERE'S GOTTA BE A BETTER WAY
-
 
 ## Internal Stylesheets
 ```
@@ -62,7 +60,7 @@ THERE'S GOTTA BE A BETTER WAY
 <meta…></meta>
 <title…></title>
 <style>
-  h2 {
+  tag {
     property: property value or values;
   }
 </style>
@@ -77,18 +75,14 @@ selector(s) { <!--rule set-->
   property: value; <!--declaration-->
 }
 
-<!-- Add styling to an h2 and demonstrate the issue with the lack of specificity -->
 
 ## Three Main Types of CSS Selectors
 
 * HTML tags/elements - Least specific
 * Classes
   * `.class-name`
-  <!-- Add styling to an h2 and an h3 tag to show that we can add the same styling to different elements -->
 * Ids - Most specific
   * `#id-name`
-  <!-- Add styling to just one of the above to show that we can add unique styling to one element with an id -->
-  <!-- Overwrite styling with this more specific selector -->
 
 Element Selector:
 ```
@@ -123,8 +117,9 @@ p, .navbar, #main-page-title {
 - For an external stylesheet we have to add a link in the head that looks something like this:
 
 ```
-<link rel="stylesheet" href="./hasselhoff.css">
+<link rel="stylesheet" href="./stylesheet.css">
 ```
+
 
 ## The Box Model
 
@@ -135,22 +130,6 @@ p, .navbar, #main-page-title {
 * Content
 
 (Use Chrome Web Developer to explore!)
-
-## Layouts & Positioning - Floats & Clear
-Floats - take our elements outside of the standard flow of the webpage
-_Go to the w3schools css resource below and play around with these and other properties in the "try it yourself!" section._
-```
-.grand-canyon-image {
-  width: 400px;
-  float: left;
-}
-```
-Use clear to make your elements 'clear' any floats and sit inline with the regular flow of the page
-```
-.park-info {
-  clear: both;
-}
-```
 
 
 ## Layouts & Positioning - CSS Grid / Flex
