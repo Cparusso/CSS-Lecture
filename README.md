@@ -3,22 +3,20 @@
 
 ## Objectives
 
-* (p1) Discuss what CSS does and why it's important
-* (p1) Differentiate between inline, internal, and external stylesheets
-* (p1) Demonstrate the anatomy of a declaration block
-* (p1) Understand how to use class, id, and element selectors, and selector order of importance
-* (p1) Demonstrate the use of the box model, floats, clear and positioning
-* (p2) Demonstrate the use of flex box, CSS grid in page layout
-* (p2) Introduce CSS Frameworks like Bootstrap and Semantic UI
-
+- Discuss what CSS does and why it's important
+- Cover the basics of HTML
+- Differentiate between inline, internal, and external stylesheets
+- Demonstrate the anatomy of a declaration block
+- Understand how to use class, id, and element selectors, and selector order of importance
+- Demonstrate the use of the box model, floats, clear and positioning
+- Demonstrate the use of flex box, CSS grid in page layout
+- Introduce CSS Frameworks like Bootstrap and Semantic UI
 
 ## CSS Basics
 
 What does CSS mean?  
-<!-- Cascading stylesheets -->
 
 Why do we use it?  
-<!-- Make it pretty. -->
 
 
 ## The Good, the Bad and the Ugly
@@ -50,14 +48,12 @@ lingscars.com
   * `<img />`
 
 
-## Inline styling
-talk about property and value a little
+## Inline Styling
 ```
 <tag style="property:value or values;”>
 ```
-show example of turning a p into a h1
 
-THERES GOTTA BE A BETTER WAY
+THERE'S GOTTA BE A BETTER WAY
 
 
 ## Internal Stylesheets
