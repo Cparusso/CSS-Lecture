@@ -33,33 +33,66 @@ eteamz.com/soccer/pills/jpill.htm
 lingscars.com
 
 
-## Anatomy of the Declaration Block
+## The basics of HTML
 
-selectors {
-  property: value or values; <!--declaration-->
-  property: value; <!--declaration-->
-} <!--rule set-->
-
-
-## Three Types of CSS Selectors
-
-* HTML tags/elements - Least specific
-  * Some elements need an opening and a closing tag.
-    * `<tag>Content</tag>`
-  * Some elements are self closing.
-    * `<tag />`
+* Some elements need an opening and a closing tag.
+  * `<tag>Content</tag>`
   * `<h1>Heading</h1>`
     * h1 - h6
   * `<p>Paragraph</p>`
+* You can nest elements within other elements.
   * `<ul></ul>` (Unordered list) / `<ol></ol>` (Ordered list)
     * `<li>List Item</li>`
   * `<div></div>` (block) / `<span></span>` (inline)
+* Some elements are self closing.
+  * `<tag />`
   * `<br />`
   * `<img />`
+
+
+## Inline styling
+talk about property and value a little
+```
+<tag style="property:value or values;”>
+```
+show example of turning a p into a h1
+
+THERES GOTTA BE A BETTER WAY
+
+
+## Internal Stylesheets
+```
+<head>
+<meta…></meta>
+<title…></title>
+<style>
+  h2 {
+    property: property value or values;
+  }
+</style>
+</head>
+```
+
+
+## Anatomy of the Declaration Block
+
+selector(s) { <!--rule set-->
+  property: value or values; <!--declaration-->
+  property: value; <!--declaration-->
+}
+
+<!-- Add styling to an h2 and demonstrate the issue with the lack of specificity -->
+
+## Three Main Types of CSS Selectors
+
+* HTML tags/elements - Least specific
 * Classes
   * `.class-name`
+  <!-- Add styling to an h2 and an h3 tag to show that we can add the same styling to different elements -->
 * Ids - Most specific
   * `#id-name`
+  <!-- Add styling to just one of the above to show that we can add unique styling to one element with an id -->
+  <!-- Overwrite styling with this more specific selector -->
 
 Element Selector:
 ```
@@ -90,6 +123,13 @@ p, .navbar, #main-page-title {
 ```
 
 
+## External Stylesheets
+- For an external stylesheet we have to add a link in the head that looks something like this:
+
+```
+<link rel="stylesheet" href="./hasselhoff.css">
+```
+
 ## The Box Model
 
 4 Elements of the box model:
@@ -99,35 +139,6 @@ p, .navbar, #main-page-title {
 * Content
 
 (Use Chrome Web Developer to explore!)
-
-
-## Three Types of CSS
-
-How do we add CSS to our HTML page?
-* Inline
-```
-<h2 style=property:value or values;”>
-```
-
-* Internal
-```
-<head>
-<meta…></meta>
-<title…></title>
-<style>
-h2 {
-  property: property value or values;
-}
-</style>
-</head>
-```
-
-* External
-- For an external stylesheet we have to add a link in the head that looks something like this:
-
-```
-<link rel="stylesheet" href="./hasselhoff.css">
-```
 
 ## Layouts & Positioning - Floats & Clear
 Floats - take our elements outside of the standard flow of the webpage
