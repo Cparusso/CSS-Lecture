@@ -129,8 +129,6 @@ p, .navbar, #main-page-title {
 * Padding
 * Content
 
-(Use Chrome Web Developer to explore!)
-
 
 ## Layouts & Positioning - CSS Grid / Flex
 Flex-based layout system
