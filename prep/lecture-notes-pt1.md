@@ -3,10 +3,10 @@
 Things to have open before the lecture begins:
   - html.html
   - hasselhoff.html
-  - csszengarden.com
-  - aliweb.com
-  - http://css.maxdesign.com.au/selectutorial/advanced_cascade.htm
-  - lingscars.com
+  - [A bunch of well designed sites](csszengarden.com)
+  - [A poorly designed site](aliweb.com)
+  - [A css site with really bad css](http://css.maxdesign.com.au/selectutorial/advanced_cascade.htm)
+  - [lingscars](lingscars.com)
 
 
 First we need to go over the objectives of the lecture. The objectives of the lecture will obviously depend on the classes level of understanding of HTML/CSS going into the lecture. The lecture notes will assume the bare minimum level of understanding. Be sure to tailor the list of objectives before going puling this up in front of everyone.  
