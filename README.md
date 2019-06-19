@@ -15,8 +15,10 @@
 ## CSS Basics
 
 What does CSS mean?  
+Cascading Stylesheets
 
-Why do we use it?  
+Why do we use it?
+Makes the internet look pretty
 
 
 ## The Good, the Bad and the Ugly
