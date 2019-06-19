@@ -1,0 +1,15 @@
+.beef {
+  font-size: 32px;
+  font-weight: bold;
+  color: green;
+}
+
+#second-p {
+  background-color: blue;
+  color: yellow;
+}
+
+div h2 {
+  color: orange;
+  color: thistle;
+}

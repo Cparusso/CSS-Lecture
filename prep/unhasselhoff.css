@@ -5,6 +5,26 @@ body {
   /* font-family: 'Monoton', cursive; */
 }
 
+/* TITLE START */
+#title {
+  font-size: 20px;
+  color: lemonchiffon;
+  background-color: #00820b50;
+
+  position: fixed;
+  right: 30px;
+
+  border: outset 10px #f44336;
+  padding: 4px;
+}
+
+#title:hover {
+  top: 3px;
+
+  border: inset 10px #f44336;
+}
+/* TITLE START */
+
 /* BANNER START */
 #banner {
   color: #e8e8e8;

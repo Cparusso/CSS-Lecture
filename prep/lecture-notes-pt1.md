@@ -18,7 +18,7 @@ Full list of objectives:
   - Differentiate between inline, internal, and external stylesheets
   - Demonstrate the anatomy of a declaration block
   - Understand how to use class, id, and element selectors, and selector order of importance
-  - Demonstrate the use of the box model, floats, clear and positioning
+  - Demonstrate the use of the box model and positioning
   - Demonstrate the use of flex box, CSS grid in page layout
   - Introduce CSS Frameworks like Bootstrap and Semantic UI
 
