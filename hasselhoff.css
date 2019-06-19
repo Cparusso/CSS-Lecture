@@ -42,14 +42,45 @@ body {
 
 /* HORIZONTAL IMAGE START */
 #horizontal-image {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
 }
 /* HORIZONTAL IMAGE END */
 
 
 /* VERTICAL IMAGE START */
 #vertical-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#vertical-image img {
+  width: 50%;
 }
 /* VERTICAL IMAGE END */
+
+/* GRID-FLEX-IMAGE START */
+#grid-flex-image {
+  display: flex;
+  flex-direction: column;
+}
+
+#grid-flex-image img {
+  width: 20%;
+}
+
+.row {
+  display: flex;
+}
+
+.yana {
+  background-image: url("https://d30womf5coomej.cloudfront.net/ua/c3/f9/19/c2/74c64fdaf592494b83488be5347b8fc9.jpg");
+}
+
+
+/* GRID-FLEX-IMAGE END */
 
 
 /* GRID IMAGE START */
