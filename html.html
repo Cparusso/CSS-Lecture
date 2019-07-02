@@ -6,10 +6,57 @@
     <link rel="stylesheet" href="./html.css">
   </head>
   <body>
+    <div id="square-container">
+      <div class="left-squares">
+        <div style="width: 50px;height:50px;background:red;border:10px solid green;"></div>
+        <div style="width: 50px;height:50px;background:red;border:10px solid green;"></div>
+        <div style="width: 50px;height:50px;background:red;border:10px solid green;"></div>
+      </div>
+      <div class="right-squares">
+        <div style="height:50px;background:blue;border:10px solid green;"></div>
+        <div class="bottom-right-idk">
+          <div class="lil-guy" style="width: 50px;height:50px;background:blue;border:10px solid green;">
+            <div style="width: 20px;height:20px;background:pink;">
+              laughingsohardomg
+            </div>
+            <div style="width: 20px;height:20px;background:pink;">
+              laughingsohardomg
+            </div>
+            <div style="width: 20px;height:20px;background:pink;">
+              laughingsohardomg
+            </div>
+            <div style="width: 20px;height:20px;background:pink;">
+              laughingsohardomg
+            </div>
+            <div style="width: 20px;height:20px;background:pink;">
+              laughingsohardomg
+            </div>
+            <div style="width: 20px;height:20px;background:pink;">
+              laughingsohardomg
+            </div>
+            <div style="width: 20px;height:20px;background:pink;">
+              laughingsohardomg
+            </div>
+            <div style="width: 20px;height:20px;background:pink;">
+              nolaughingsohardomg
+            </div>
+          </div>
+          <div style="width: 50px;height:50px;background:blue;border:10px solid green;"></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="width: 50%; height: 10px; background: red;">
+      <div style="width: 50%; height: 10px; background: green;">
+        <div style="width: 50%; height: 10px; background: blue;">
+        </div>
+
+      </div>
+    </div>
     <h1>
       Heading 1
     </h1>
-    <p>Im a p tag in disguise</p>
+    <p class="spaghetti">Im a p tag in disguise</p>
     <div>
       <h2>Heading 2</h2>
     </div>
@@ -20,11 +67,11 @@
     <h6>Heading 6</h6>
     <p class="beef">This is a p tag</p>
     <p class="beef" id="second-p" style="color: red;">This is a p tag</p>
-    <p class="beef">This is a p tag</p>
+    <p class="beef spaghetti">This is a p tag</p>
     <p class="beef">This is a p tag</p>
     <ol>
       <li>number 1</li>
-      <li>number 2</li>
+      <li style="border-style: solid; border-size: 10px; border-color: thistle">number 2</li>
       <li>number 3</li>
     </ol>
     <img src="data:image/jpeg;base64,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" alt="pebble"/>
