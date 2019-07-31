@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 #special {
   color: purple;
+=======
+/* .beef {
+  font-size: 32px;
+  font-weight: bold;
+  color: green;
+>>>>>>> 9223e07dc0e623d1d284108355d142a6f1fca02d
 }
 
 h1, h2, h5, p {
@@ -13,6 +20,57 @@ h1, h2, h5, p {
   padding: 20%;
 }
 
+<<<<<<< HEAD
 h2 {
   color: white;
+=======
+div h2 {
+  color: orange;
+  color: thistle;
+} */
+
+.spaghetti {
+   /* font-size: 32px;
+   font-weight:bold; */
+   width: 80vw;
+   /* margin: 50px; */
+   /* padding: 50px; */
+   background-color: pink;
+   /* border: 50px green groove; */
+}
+
+p {
+  color: blue;
+}
+
+body {
+  background: #51cebf;
+}
+
+#square-container {
+  display: flex;
+  width: 80%;
+  height: 70vh;
+  background: thistle;
+  justify-content: space-evenly;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.right-squares {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-right-idk {
+  border: 10px solid red;
+  display: flex;
+}
+
+.lil-guy {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+>>>>>>> 9223e07dc0e623d1d284108355d142a6f1fca02d
 }
