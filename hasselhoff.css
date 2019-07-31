@@ -1,93 +1,63 @@
+/* #navbar {
+  background: green;
+} */
+
 body {
-  background-color: green;
-  color: purple;
+  background: yellow;
   margin: 0px;
 }
 
-/* TITLE START */
-#title {
-  text-align: center;
-  width: 50%;
-  /* border-width: 40px 80px;
-  border-color: #8600abbd;
-  border-style: groove; */
-  border: 40px #8600abbd groove;
-  margin: auto;
-  padding: 50px 30px;
-  background-color: thistle;
-}
-/* TITLE START */
-
-/* BANNER START */
-#banner {
-  background-color: #4ca4b9;
-  border: 40px orange groove;
-  border-radius: 100px;
-  width: 40%;
-  margin-left: 600px;
-  text-align: center;
-}
-
 #banner-container {
-  background-color: grey;
-  padding: 20px;
-}
-/* BANNER END */
-
-
-/* FUN FACTS START */
-
-/* FUN FACTS END */
-
-
-/* HORIZONTAL IMAGE START */
-#horizontal-image {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-}
-/* HORIZONTAL IMAGE END */
-
-
-/* VERTICAL IMAGE START */
-#vertical-image {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background: green;
+  text-align: center;
+  border: groove 20px thistle;
+  padding: 50px 0px;
+  width: auto;
+  /* margin: auto; */
+  font-family: 'Inconsolata', monospace;
 }
 
-#vertical-image img {
-  width: 50%;
-}
-/* VERTICAL IMAGE END */
-
-/* GRID-FLEX-IMAGE START */
-#grid-flex-image {
-  display: flex;
-  flex-direction: column;
+#title {
+  border: 10px red solid;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,104,1) 35%, rgba(6,192,248,1) 70%, rgba(255,0,114,1) 100%);
+  width: 50px;
 }
 
-#grid-flex-image img {
-  width: 20%;
+#banner {
+  width: 50px;
+
 }
 
-.row {
+#outermost{
+  background: black;
+  width: 500px;
+  height: 300px;
+  /* display: flex;
+  justify-content: space-evenly;
+  align-items: center; */
+  position: absolute;
+  right: 300px;
+}
+
+#outerless{
+  background: red;
+  width: 100px;
+  height: 80%;
+}
+
+#this-one {
   display: flex;
 }
 
-.yana {
-  background-image: url("https://d30womf5coomej.cloudfront.net/ua/c3/f9/19/c2/74c64fdaf592494b83488be5347b8fc9.jpg");
+#innerless{
+  background: green;
+  width: 100px;
+  height: 100px;
 }
 
-
-/* GRID-FLEX-IMAGE END */
-
-
-/* GRID IMAGE START */
-
-/* GRID IMAGE END */
-
-
-/* CARD START */
-
-/* CARD END */
+#innerless ~ div {
+  background: blue;
+  width: 100px;
+  height: 100px;
+}

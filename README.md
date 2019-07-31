@@ -18,8 +18,7 @@ What does CSS mean?
 Cascading Stylesheets
 
 Why do we use it?
-Makes the internet look pretty
-
+Make it pretty
 
 ## The Good, the Bad and the Ugly
 
@@ -165,3 +164,102 @@ You can style your website very quickly by using a framework, but there are some
 [CSS Zen Garden](http://www.csszengarden.com/) - Great examples of some rock solid CSS experiences  
 [Flexbox Froggy](https://flexboxfroggy.com/) - THE BEST way to learn flex  
 [CSS Grid Garden](http://cssgridgarden.com/) - THE BEST way to learn grid
+
+
+
+
+
+<!-- 
+body {
+  background-color: green;
+  color: purple;
+  margin: 0px;
+}
+
+/* TITLE START */
+#title {
+  text-align: center;
+  width: 50%;
+  /* border-width: 40px 80px;
+  border-color: #8600abbd;
+  border-style: groove; */
+  border: 40px #8600abbd groove;
+  margin: auto;
+  padding: 50px 30px;
+  background-color: thistle;
+}
+/* TITLE START */
+
+/* BANNER START */
+#banner {
+  background-color: #4ca4b9;
+  border: 40px orange groove;
+  border-radius: 100px;
+  width: 40%;
+  margin-left: 600px;
+  text-align: center;
+}
+
+#banner-container {
+  background-color: grey;
+  padding: 20px;
+}
+/* BANNER END */
+
+
+/* FUN FACTS START */
+
+/* FUN FACTS END */
+
+
+/* HORIZONTAL IMAGE START */
+#horizontal-image {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+/* HORIZONTAL IMAGE END */
+
+
+/* VERTICAL IMAGE START */
+#vertical-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#vertical-image img {
+  width: 50%;
+}
+/* VERTICAL IMAGE END */
+
+/* GRID-FLEX-IMAGE START */
+#grid-flex-image {
+  display: flex;
+  flex-direction: column;
+}
+
+#grid-flex-image img {
+  width: 20%;
+}
+
+.row {
+  display: flex;
+}
+
+.yana {
+  background-image: url("https://d30womf5coomej.cloudfront.net/ua/c3/f9/19/c2/74c64fdaf592494b83488be5347b8fc9.jpg");
+}
+
+
+/* GRID-FLEX-IMAGE END */
+
+
+/* GRID IMAGE START */
+
+/* GRID IMAGE END */
+
+
+/* CARD START */
+
+/* CARD END */ -->

@@ -1,15 +1,18 @@
-.beef {
+#special {
+  color: purple;
+}
+
+h1, h2, h5, p {
+/* .whatever-you-want { */
+  color: green;
   font-size: 32px;
   font-weight: bold;
-  color: green;
+  background-color: #2f8774d1;
+  color: blue;
+  border: blue 50px groove;
+  padding: 20%;
 }
 
-#second-p {
-  background-color: blue;
-  color: yellow;
-}
-
-div h2 {
-  color: orange;
-  color: thistle;
+h2 {
+  color: white;
 }
